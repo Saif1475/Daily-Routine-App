@@ -107,7 +107,7 @@ fun RoutineNavGraph() {
             }
         },
     ) { padding ->
-        Box(modifier = Modifier.fillMaxSize().padding(bottom = if (showChrome) padding.calculateBottomPadding() else 0.dp)) {
+        Box(modifier = Modifier.fillMaxSize().padding(padding)) {
             NavHost(navController = navController, startDestination = Routes.HOME) {
                 composable(Routes.HOME) {
                     HomeScreen(
