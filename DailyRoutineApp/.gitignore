@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Contains your Firebase project's config — see README for how to generate your own.
+app/google-services.json
